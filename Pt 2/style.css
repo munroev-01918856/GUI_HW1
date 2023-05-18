@@ -1,0 +1,80 @@
+/* General Formatting*/
+h1 {
+    color: rgb(94, 0, 153);
+    text-align: center;
+
+  }
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+em{
+    margin-left: 5px;
+}
+ul{
+    margin: 10px;
+}
+
+/* Side Bar  (Source:https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp) */
+.sidenav{
+    height: 100%;
+    width: 200px;
+    font-size: 20px;
+    align-items: center;
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color:lightgray ;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidenav portrait{
+    width: 150px;
+}
+.sidenav img{
+    height: 50px;
+    align-items: center;
+}
+/*Main Page*/
+
+.main {
+    margin-left: 200px;
+    font-size: 15px; 
+    padding: 0px 10px;
+  }
+
+.main a{
+    padding: 6px 8px 6px 16px;
+}
+
+/*Resume Table*/
+.resheaders{ /*section headers*/
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: lightgray underline;
+
+}
+
+table {
+    margin:5%;
+    width:90%;
+    table-layout: fixed;
+
+}
+
+td{
+    width: 50%;
+    height: 10px;
+
+}
+
+
+
+
+
+
+

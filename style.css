@@ -28,6 +28,7 @@ body{
     height: 100%;
     width: 200px;
     align-items: center;
+    text-align: center;
     position: fixed;
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -44,16 +45,20 @@ body{
     height: 150px;
     align-items: center;
     
+    
 }
+
+
 
 .sidenav img{ /*logos*/
     height: 50px;
-    align-items: center; /*FIXME not centering?*/
+    display: block; 
+    margin:0 auto;
 }
  
-.links{
+.sidenav .links{
     padding-top: 10px;
-    align-items: center;
+
 }
 
 /*Main Page*/
@@ -80,7 +85,7 @@ body{
 }
 
 /*Resume Table*/
-.resheaders{ /*section headers*/
+.resheaders{ /*resume section headers*/
     text-align: center;
     font-family: Papyrus;
     font-size: 25px;

@@ -11,6 +11,7 @@ ul{
 }
 a:link{
     color:white;
+    font-size: 2vw;
 }
 a:visited{
     color:white;
@@ -26,7 +27,9 @@ body{
 /* Side Bar  (Source:https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp) */
 .sidenav{
     height: 100%;
-    width: 200px;
+    width: 15%;
+    font-size: min(5px); /*css-tricks.com/how-do-you-do-max-font-size-in-css */
+    font-size: 1vw; /*redstapler.co/how-to-make-css-font-auto-resize*/
     align-items: center;
     text-align: center;
     position: fixed;
@@ -35,14 +38,14 @@ body{
     left: 0;
     background-color: rgb(94, 0, 153);
     color:white;
-    overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     padding-left:5px;
     padding-right: 5px;
 }
 
 .sidenav #portrait{ 
-    height: 150px;
+    width: 100%; /*https://www.w3schools.com/css/css_rwd_images.asp*/
+    height: auto;
     align-items: center;
     
     
@@ -64,7 +67,7 @@ body{
 /*Main Page*/
 .main {
     margin:auto;
-    margin-left: 200px;
+    margin-left: 15%;
     padding: 0px 10px;
   }
 
@@ -72,7 +75,7 @@ body{
 
     height:75px;
     padding: 15px;
-    margin-left: 200px;
+    margin-left: 15%;
     vertical-align: bottom; /*FIXME*/
 }
 

@@ -82,11 +82,13 @@ body{
     margin-right: 50%;
    
 }
-
 #html{
-    max-width: 500px;
+    width: auto;
+    max-width: 200px;
     height:auto;
 }
+
+
 .main a{
     padding: 6px 8px 6px 16px;
 }

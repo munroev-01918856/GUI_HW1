@@ -63,6 +63,7 @@ body{
 
 /*Main Page*/
 .main {
+    margin:auto;
     margin-left: 200px;
     padding: 0px 10px;
   }

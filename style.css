@@ -11,7 +11,7 @@ ul{
 }
 a:link{
     color:white;
-    font-size: 2vw;
+    font-size: 2vw; 
 }
 a:visited{
     color:white;
@@ -43,15 +43,13 @@ body{
     padding-right: 5px;
 }
 
-.sidenav #portrait{ 
+.sidenav #portrait{ /* portrait css*/
     width: 100%; /*https://www.w3schools.com/css/css_rwd_images.asp*/
     height: auto;
     align-items: center;
     
     
 }
-
-
 
 .sidenav img{ /*logos*/
     height: 50px;
@@ -76,19 +74,25 @@ body{
     height:75px;
     padding: 15px;
     margin-left: 15%;
-    vertical-align: bottom; /*FIXME*/
+    vertical-align: bottom; 
 }
 
 .validation{  /*CSS & HTML validation badges*/
     margin-left: 50%;
+    margin-right: 50%;
    
 }
 
+#html{
+    max-width: 500px;
+    height:auto;
+}
 .main a{
     padding: 6px 8px 6px 16px;
 }
 
 /*Resume Table*/
+
 .resheaders{ /*resume section headers*/
     text-align: center;
     font-family: Papyrus;
@@ -102,7 +106,7 @@ body{
     font-size: 20px;
 }
 
-.date_loc{
+.date_loc{ /*class for elements that should be right justified on table */
     text-align: right;
 }
 table {

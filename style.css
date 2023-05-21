@@ -1,31 +1,29 @@
 /* General Formatting*/
 h1 {
     text-align: center;
-  }
+}
 
-em{
+em {
     margin-left: 5px;
 }
-ul{
+ul {
     margin: 10px;
 }
-a:link{
-    color:white;
-    font-size: 2vw; 
+a:link {
+    color: white;
+    font-size: 2vw;
 }
-a:visited{
-    color:white;
-}
-
-body{
-    font-size: 18px; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+a:visited {
+    color: white;
 }
 
+body {
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 
 /* Side Bar  (Source:https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp) */
-.sidenav{
+.sidenav {
     height: 100%;
     width: 15%;
     font-size: min(5px); /*css-tricks.com/how-do-you-do-max-font-size-in-css */
@@ -37,98 +35,87 @@ body{
     top: 0; /* Stay at the top */
     left: 0;
     background-color: rgb(94, 0, 153);
-    color:white;
+    color: white;
     padding-top: 20px;
-    padding-left:5px;
+    padding-left: 5px;
     padding-right: 5px;
 }
 
-.sidenav #portrait{ /* portrait css*/
+.sidenav #portrait {
+    /* portrait css*/
     width: 100%; /*https://www.w3schools.com/css/css_rwd_images.asp*/
     height: auto;
     align-items: center;
-    
-    
 }
 
-.sidenav img{ /*logos*/
+.sidenav img {
+    /*logos*/
     height: 50px;
-    display: block; 
-    margin:0 auto;
+    display: block;
+    margin: 0 auto;
 }
- 
-.sidenav .links{
-    padding-top: 10px;
 
+.sidenav .links {
+    padding-top: 10px;
 }
 
 /*Main Page*/
 .main {
-    margin:auto;
+    margin: auto;
     margin-left: 15%;
     padding: 0px 10px;
-  }
+}
 
-.main img{  /*resume icons*/
-
-    height:75px;
+.main img {
+    /*resume icons*/
+    height: 75px;
     padding: 15px;
     margin-left: 15%;
-    vertical-align: bottom; 
+    vertical-align: bottom;
 }
 
-.validation{  /*CSS & HTML validation badges*/
+.validation {
+    /*CSS & HTML validation badges*/
     margin-left: 50%;
     margin-right: 50%;
-   
 }
-#html{
+#html {
     width: auto;
     max-width: 200px;
-    height:auto;
+    height: auto;
 }
 
-
-.main a{
+.main a {
     padding: 6px 8px 6px 16px;
 }
 
 /*Resume Table*/
 
-.resheaders{ /*resume section headers*/
+.resheaders {
+    /*resume section headers*/
     text-align: center;
     font-family: Papyrus;
     font-size: 25px;
     font-weight: bold;
     text-decoration: lightgray underline;
-
 }
-.restitles{ 
+.restitles {
     font-weight: bold;
     font-size: 20px;
 }
 
-.date_loc{ /*class for elements that should be right justified on table */
+.date_loc {
+    /*class for elements that should be right justified on table */
     text-align: right;
 }
 table {
-    margin:5%;
-    width:90%;
+    margin: 5%;
+    width: 90%;
     table-layout: fixed;
-
 }
 
-td{
+td {
     width: 50%;
     height: 10px;
     padding: 5px;
-
 }
-
-
-
-
-
-
-
-

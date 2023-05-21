@@ -2,7 +2,7 @@
 File: index.html
 GUI Assignment: HW 1-Creating 1st Web Page
 Victoria Munroe 05/16/2023
-Description: Portfolio website containing resume
+Description: Portfolio website containing resume & links to my github, linkedin & option to download pdf of my resume
 
 Inspiration provided by:
 blog.codersrank.io/10-inspiring-developer-websites-and-profile-pages
@@ -17,63 +17,71 @@ css-tricks.com/how-do-you-do-max-font-size-in-css
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <title>Victoria's Home Page</title>
-        <link rel="stylesheet" href="style.css">    
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <!-- Side Bar-->
-        <div class ="sidenav"> <!--https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp-->
-            <img src="Images/profilepic.jpeg" alt="portrait" id="portrait"> <!--FIXME-->
+        <div class="sidenav">
+            <!--https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp-->
+            <img src="Images/profilepic.jpeg" alt="portrait" id="portrait" />
+            <!--FIXME-->
             <h1>Victoria Munroe</h1>
             <h3>Computer Science, University of Massachusetts Lowell</h3>
-            <div class ="links"> 
-                <a href="https://www.linkedin.com/in/victoria-munroe/" target="_blank"><img src="Images/linkedin.png" alt="linkedin"></a><br>
-                <a href="https://github.com/munroev-01918856" target="_blank"><img src="Images/github-mark.png" alt="github"></a><br><br>
-                <a href="Downloads/Resume_VictoriaMunroe.pdf" download="Resume_VictoriaMunroe" target="_blank">Resume</a>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/victoria-munroe/" target="_blank">
+                    <img src="Images/linkedin.png" alt="linkedin" />
+                </a>
+                <br />
+                <a href="https://github.com/munroev-01918856" target="_blank"><img src="Images/github-mark.png" alt="github" /></a><br /><br />
+                <a href="Downloads/Resume_VictoriaMunroe.pdf" download="Resume_VictoriaMunroe" target="_blank"> Resume </a>
             </div>
         </div>
         <!-- Main Body-->
-        <div class ="main">
+        <div class="main">
             <!--Resume-->
             <table class="resume">
-                
+                <!--About Me-->
                 <tr>
-                    <td colspan="2" class="resheaders"><img src="Images/User.png" alt=""> About Me</td>
+                    <td colspan="2" class="resheaders"><img src="Images/User.png" alt="" /> About Me</td>
                 </tr>
                 <tr>
-                    <td colspan="2">Senior at UMass Lowell studying computer science, my expected graduation date is May 2024.
-                        I have worked on a variety of languages throughout school and in my internships. I know C++, Java, Python, C#, 
-                        PHP, and SQLite. As a non-traditional student I bring a unique experience to a company and I can be a valuable assett to any company.
-                        In my free time I enjoy playing with my dog and learning the piano.</td>
+                    <td colspan="2">
+                        Senior at UMass Lowell studying computer science, my expected graduation date is May 2024. I have worked on a variety of
+                        languages throughout school and in my internships. I know C++, Java, Python, C#, PHP, and SQLite. As a non-traditional student
+                        I bring a unique experience to a company and I can be a valuable assett to any company. In my free time I enjoy playing with
+                        my dog and learning the piano.
+                    </td>
                 </tr>
                 <!--Education-->
                 <tr>
-                    <td colspan="2" class="resheaders"><img src="Images/Graduate.png" alt=""> Education</td>
+                    <td colspan="2" class="resheaders"><img src="Images/Graduate.png" alt="" /> Education</td>
                 </tr>
                 <tr>
-                    <td class="restitles">University of Massachusetts Lowell</td> 
+                    <td class="restitles">University of Massachusetts Lowell</td>
                     <td class="date_loc">May 2023</td>
                 </tr>
                 <tr>
                     <td colspan="2">Bachelor of Science in Computer Science</td>
                 </tr>
                 <tr>
-                    <td colspan="2"><em>Relevant Coursework:</em> Mobile App Development, GUI I, Discrete Structures I-II,           	                 		
-                        Computer Architecture, Computing II-III, Logic Design, Probability and Stats, Organization of Programming Languages    
-                        </td>
+                    <td colspan="2">
+                        <em>Relevant Coursework:</em> Mobile App Development, GUI I, Discrete Structures I-II, Computer Architecture, Computing
+                        II-III, Logic Design, Probability and Stats, Organization of Programming Languages
+                    </td>
                 </tr>
                 <tr>
-                    <td class="restitles">MassBay Community College</td> 
+                    <td class="restitles">MassBay Community College</td>
                     <td class="date_loc">May 2020</td>
                 </tr>
                 <tr>
                     <td colspan="2">Coursework in Computer Science</td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="resheaders"><img src="Images/Briefcase.png" alt=""> Experience</td>
+                    <td colspan="2" class="resheaders"><img src="Images/Briefcase.png" alt="" /> Experience</td>
                 </tr>
-                 <!--Job 1-->
+                <!--Job 1-->
                 <tr>
                     <td class="restitles">ASMPT Nexx</td>
                     <td class="date_loc">Billerica, MA</td>
@@ -82,13 +90,18 @@ css-tricks.com/how-do-you-do-max-font-size-in-css
                     <td>Softwware Enginnering Co-op</td>
                     <td class="date_loc">January 2022-May 2023</td>
                 </tr>
-                <tr> 
+                <tr>
                     <td colspan="2">
                         <ul>
-                            <li>Helped lead and organize implementation of DevOps system for building and continuous testing for company's software development cycle</li>
-                            <li>Responsible for creating on-boarding and training documents for future employees and co-ops. </li>
-                            <li>Created a program to parse years of XML files and create a database of all relevant data that can be accessed via a
-                                Tkinter based GUI</li>
+                            <li>
+                                Helped lead and organize implementation of DevOps system for building and continuous testing for company's software
+                                development cycle
+                            </li>
+                            <li>Responsible for creating on-boarding and training documents for future employees and co-ops.</li>
+                            <li>
+                                Created a program to parse years of XML files and create a database of all relevant data that can be accessed via a
+                                Tkinter based GUI
+                            </li>
                         </ul>
                     </td>
                 </tr>
@@ -101,11 +114,14 @@ css-tricks.com/how-do-you-do-max-font-size-in-css
                     <td>Intern</td>
                     <td class="date_loc">Summer 2020/February 2021-November 2021</td>
                 </tr>
-                <tr> 
+                <tr>
                     <td colspan="2">
                         <ul>
-                            <li>Responsible for maintaining and updating Python code used to extract and organize pharmaceutical data.</li>
-                            <li>Researched, analyzed, and harvested background data for biotech corporations via manual methods and through custom built python code</li>
+                            <li>I was Responsible for maintaining and updating Python code used to extract and organize pharmaceutical data.</li>
+                            <li>
+                                Researched, analyzed, and harvested background data for biotech corporations via manual methods and through custom
+                                built python code
+                            </li>
                         </ul>
                     </td>
                 </tr>
@@ -118,28 +134,33 @@ css-tricks.com/how-do-you-do-max-font-size-in-css
                     <td>Production and Sales Support Specialist</td>
                     <td class="date_loc">May 2016-Jul 2018</td>
                 </tr>
-                <tr> 
+                <tr>
                     <td colspan="2">
                         <ul>
-                            <li>Researched bidders’ lists for upcoming proposals and assisted in launching new a CRM platform for BusDev team.</li>   
-                            <li>Led re-organization efforts that resulted in the production department passing audit for the first time in 3 years.  </li>
-                            <li>Assisted engineering department with the release of technical reports to both private and governmental agencies. </li>
-                            <li>Trained new administrative staff on administrative, accounting and data management practices. </li>
-                            <li>Planned, organized, and aided the leadership team, including international travel arrangements, quarterly meetings, exhibitions for conferences, Certificate of Insurance requests, purchasing and shipments. </li>
+                            <li>Researched bidders’ lists for upcoming proposals and assisted in launching new a CRM platform for BusDev team.</li>
+                            <li>
+                                Led re-organization efforts that resulted in the production department passing audit for the first time in 3 years.
+                            </li>
+                            <li>Assisted engineering department with the release of technical reports to both private and governmental agencies.</li>
+                            <li>Trained new administrative staff on administrative, accounting and data management practices.</li>
+                            <li>
+                                Planned, organized, and aided the leadership team, including international travel arrangements, quarterly meetings,
+                                exhibitions for conferences, Certificate of Insurance requests, purchasing and shipments.
+                            </li>
                         </ul>
                     </td>
                 </tr>
                 <!--- Projects-->
-                
-                
+
                 <tr>
-                    <td colspan="2" class="resheaders"><img src="Images/Laptop.png" alt="">Projects</td>
+                    <td colspan="2" class="resheaders"><img src="Images/Laptop.png" alt="" />Projects</td>
                 </tr>
                 <tr>
-                    <td class="restitles">Mobile News Application</td> <!--FIXME-->
+                    <td class="restitles">Mobile News Application</td>
+                    <!--FIXME-->
                     <td class="date_loc">Fall 2022</td>
                 </tr>
-                <tr> 
+                <tr>
                     <td colspan="2">
                         <ul>
                             <li>Application to scrape news and showcase in a dynamic view</li>
@@ -150,7 +171,7 @@ css-tricks.com/how-do-you-do-max-font-size-in-css
                     <td class="restitles">Evil Hangman in C</td>
                     <td class="date_loc">Fall 2020</td>
                 </tr>
-                <tr> 
+                <tr>
                     <td colspan="2">
                         <ul>
                             <li>Created interactive text-based game akin to Hangman over the course of a semester.</li>
@@ -164,25 +185,24 @@ css-tricks.com/how-do-you-do-max-font-size-in-css
                     <td class="restitles">Pet Store Commerce Website</td>
                     <td class="date_loc">Spring 2020</td>
                 </tr>
-                <tr> 
+                <tr>
                     <td colspan="2">
                         <ul>
-                            <li>Designed and developed in HTML a simulated pet store that connected a MySQL database inventory via PHP to manage orders and inventory.</li>
-                            <li>Incorporated functionality to connect customers with customer service using a built-in form. </li>
+                            <li>
+                                Designed and developed in HTML a simulated pet store that connected a MySQL database inventory via PHP to manage
+                                orders and inventory.
+                            </li>
+                            <li>Incorporated functionality to connect customers with customer service using a built-in form.</li>
                         </ul>
                     </td>
                 </tr>
-
             </table>
-
-          
-
         </div>
-        <!-- Validation-->
-        <div class="validation">
-            <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" >
-            <img id ="html" src="Images/htmlverification.png" alt="Valid HTML"> <!-- Fixme-->
-         </div>
-    </body>
 
+        <!-- Validation Badges-->
+        <div class="validation">
+            <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+            <img id="html" src="Images/htmlverification.png" alt="Valid HTML" />
+        </div>
+    </body>
 </html>

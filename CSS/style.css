@@ -1,3 +1,29 @@
+
+/* File: style.css
+GUI Assignment: HW 1-Creating 1st Web Page
+Victoria Munroe victoria_munroe@student.uml.edu
+Description: Portfolio website containing resume & links to my github, linkedin & option to download pdf of my resume
+CSS Page: Create styling for website
+
+Copyright (c) 2023 by VMunroe. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+created by VM 05/19/23
+
+
+
+Inspiration provided by:
+blog.codersrank.io/10-inspiring-developer-websites-and-profile-pages
+Sources: 
+w3Schools w3schools.com
+TutorialsPoint 
+Travesty Media: youtube.com/watch?v=yfoY53QXEnI&t=916s
+redstapler.co/how-to-make-css-font-auto-resize
+css-tricks.com/how-do-you-do-max-font-size-in-css
+
+*/
+
+
+
+
 /* General Formatting*/
 h1 {
     text-align: center;
